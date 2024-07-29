@@ -17,7 +17,6 @@
           
         </div>
         
-        <a href="https://github.com/notatree2/mywebsite2"><img :src="github" class="text-9xl "></a>
       </div>
   
   
