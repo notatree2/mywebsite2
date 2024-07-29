@@ -21,7 +21,7 @@
   } else if (status === 6) {
     statian.value = "The Lord is so cool (im a Christian)"
   } else if (status === 7) {
-    statian.value = "What's your favorite thing to do?"
+    statian.value = "Putting water on paper is not a good idea"
   } else {
     statian.value = "Ice is pretty cold ngl"
   }
@@ -43,7 +43,7 @@
     } else if (random === 6) {
       statian.value = "The Lord is so cool (im a Christian)"
     } else if (random === 7) {
-      statian.value = "What's your favorite thing to do?"
+      statian.value = "Putting water on paper is not a good idea"
     } else {
       statian.value = "Ice is pretty cold ngl"
     }
