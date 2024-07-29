@@ -1,5 +1,13 @@
-# Vue 3 + Vite
+# My New Website!
+As of now, (7/26/24), my brand new website is currently under construction. It will just have a page for now.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Problems/Issues with my website? 
+Please do not hesitate to report the problems to me. I will try to fix the issues.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Troubleshooting common errors will be available in the issues tab.
+
+## FAQ
+
+#### Q: Why are you making a new website?
+A: My old website's code is a complete mess, and so i've decided to revamp my website to limit the amount of code i have to write and other benefits that may come along with this revamp.
+
