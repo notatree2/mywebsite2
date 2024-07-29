@@ -1,8 +1,53 @@
 <script setup>
+
   import { ref } from "vue"
   const website = ref("https://tech-independence-journey.codeberg.page/")
   const old = ref("https://notatree2.github.io/mywebsite/")
   const github = ref("src\assets\images\github.png")
+  const statian = ref("")
+  // ---------------------------------------------------------------
+  
+  const status = Math.floor(Math.random() * 8)
+  if (status === 1) {
+    statian.value = "1+1=2"
+  } else if (status === 2) {
+    statian.value = "Do you like music?"
+  } else if (status === 3) {
+    statian.value = "Did you know you click me?"
+  } else if (status === 4) {
+    statian.value = "Hmm... what do i put here lol"
+  } else if (status === 5) {
+    statian.value = "My ROBLOX username is Ifartedchicken, if you want you can check my profile out"
+  } else if (status === 6) {
+    statian.value = "The Lord is so cool (im a Christian)"
+  } else if (status === 7) {
+    statian.value = "What's your favorite thing to do?"
+  } else {
+    statian.value = "Ice is pretty cold ngl"
+  }
+
+
+
+  const changeme = () => {
+    const random = Math.floor(Math.random() * 8)
+    if (random === 1) {
+      statian.value = "2+2=4"
+    } else if (random === 2) {
+      statian.value = "Do you like music?"
+    } else if (random === 3) {
+      statian.value = "What you doing?"
+    } else if (random === 4) {
+      statian.value = "Hmm... what do i put here lol"
+    } else if (random === 5) {
+      statian.value = "My ROBLOX username is Ifartedchicken, if you want you can check my profile out"
+    } else if (random === 6) {
+      statian.value = "The Lord is so cool (im a Christian)"
+    } else if (random === 7) {
+      statian.value = "What's your favorite thing to do?"
+    } else {
+      statian.value = "Ice is pretty cold ngl"
+    }
+  }
   
 
 </script>
@@ -16,7 +61,7 @@
           <button class=" p-3 border rounded-lg bg-blue-300"><a :href="website" target="_blank">Tech Independence Journey</a></button>
           
         </div>
-        
+        <p @click="changeme">{{statian}}</p>
       </div>
   
   
