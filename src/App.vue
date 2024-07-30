@@ -57,8 +57,8 @@
     <div class="text-pretty text-slate-600 leading-relaxed">
       <p>Hello, and welcome to the placeholder frontpage for my new website! You can check out the source if you wish. You can also check out the old website, or a project called Tech Independence Journey! Very heavily inspired off a <a href="https://www.youtube.com/watch?v=UHciHtsuFnw" class="text-blue-500">tutorial</a> (though i tried to write the code by myself)</p>
         <div class=" grid columns-2 w-full rounded-xl p-5 font-medium">
-          <button class=" border rounded-lg bg-slate-300 p-3"><a :href="old" target="_blank">Old Website</a></button>
-          <button class=" p-3 border rounded-lg bg-blue-300"><a :href="website" target="_blank">Tech Independence Journey</a></button>
+          <button class=" border rounded-lg bg-slate-300 p-3 transition-colors hover:bg-slate-400 active:bg-slate-500"><a :href="old" target="_blank">Old Website</a></button>
+          <button class=" p-3 border rounded-lg bg-blue-300 transition-colors hover:bg-blue-400 active:bg-blue-500"><a :href="website" target="_blank">Tech Independence Journey</a></button>
           
         </div>
         <p @click="changeme">{{statian}}</p>
