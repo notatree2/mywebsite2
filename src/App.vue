@@ -16,7 +16,7 @@
   } else if (status === 2) {
     statian.value = "Do you like music?"
   } else if (status === 3) {
-    statian.value = "Did you know you click me?"
+    statian.value = "Did you know you can click me?"
   } else if (status === 4) {
     statian.value = "Hmm... what do i put here lol"
   } else if (status === 5) {
