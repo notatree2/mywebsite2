@@ -1,7 +1,7 @@
 <script setup>
 
 
-  import { ref } from "vue"
+  import { ref, onMounted, computed } from "vue"
   import { useDark, useToggle } from '@vueuse/core';
   const isDark = ref(useDark())
   const website = ref("https://tech-independence-journey.codeberg.page/")
@@ -51,7 +51,9 @@
       statian.value = "Ice is pretty cold ngl"
     }
   }
-  
+  onMounted(() => {
+    console.log("finished the initial rendering and created DOM nodes")
+  })
 
 </script>
 
