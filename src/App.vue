@@ -58,7 +58,7 @@
 </script>
 
 <template>
-<div class="place-content-center h-screen dark:bg-slate z-0">
+<div class="place-content-center h-screen dark:bg-slate-700 z-0">
   <div class="rounded-lg bg-neutral-100 p-10 text-center overflow-hidden shadow-xl shadow-slate-300/3 mr-48 ml-48 dark:bg-slate-800 z-10">
     <div class="text-pretty text-slate-600 leading-relaxed dark:text-slate-400">
       <p>Hello, and welcome to the placeholder frontpage for my new website! You can check out the source if you wish. You can also check out the old website, or a project called Tech Independence Journey! Very heavily inspired off a <a href="https://www.youtube.com/watch?v=UHciHtsuFnw" class="text-blue-500">tutorial</a> (though i tried to write the code by myself)</p>
