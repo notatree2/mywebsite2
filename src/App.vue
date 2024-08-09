@@ -18,9 +18,9 @@
   } else if (status === 3) {
     statian.value = "Did you know you can click me?"
   } else if (status === 4) {
-    statian.value = "Hmm... what do i put here lol"
+    statian.value = "People say i am a furry... and at this point i cant deny it anymore whether i like it or not"
   } else if (status === 5) {
-    statian.value = "My ROBLOX username is Ifartedchicken, if you want you can check my profile out"
+    statian.value = "Counter Strike is pretty cool ngl"
   } else if (status === 6) {
     statian.value = "The Lord is so cool (im a Christian)"
   } else if (status === 7) {
@@ -40,9 +40,9 @@
     } else if (random === 3) {
       statian.value = "What you doing?"
     } else if (random === 4) {
-      statian.value = "Hmm... what do i put here lol"
+      statian.value = "People say i am a furry... and at this point i cant deny it anymore whether i like it or not"
     } else if (random === 5) {
-      statian.value = "My ROBLOX username is Ifartedchicken, if you want you can check my profile out"
+      statian.value = "Counter Strike is pretty cool ngl"
     } else if (random === 6) {
       statian.value = "The Lord is so cool (im a Christian)"
     } else if (random === 7) {
