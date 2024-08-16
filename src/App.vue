@@ -69,7 +69,12 @@
           
         </div>
         <p @click="changeme" class="animation animate-bounce duration-400">{{statian}}</p>
-        <input type="checkbox" v-model="isDark">
+        <br>
+        <div class="border border-neutral-100  dark:border-slate-800 p-2 group mr-48 ml-48">
+          
+          <input type="checkbox" v-model="isDark" class="rounded-lg focus:ring-1 focus:ring-slate-400 transition transition-all focus:ring-offset-2 "> <label class="opacity-0 group-hover:opacity-100 transition transition-opacity">Enable Dark mode</label>
+        </div>
+        
       </div>
   
   
