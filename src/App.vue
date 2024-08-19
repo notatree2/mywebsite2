@@ -19,7 +19,7 @@
   } else if (status === 3) {
     statian.value = "Did you know you can click me?"
   } else if (status === 4) {
-    statian.value = "No longer a furry btw"
+    statian.value = "The internet is pretty cool"
   } else if (status === 5) {
     statian.value = "Counter Strike is pretty cool ngl"
   } else if (status === 6) {
@@ -41,7 +41,7 @@
     } else if (random === 3) {
       statian.value = "What you doing?"
     } else if (random === 4) {
-      statian.value = "No longer a furry btw"
+      statian.value = "The internet is pretty cool"
     } else if (random === 5) {
       statian.value = "Counter Strike is pretty cool ngl"
     } else if (random === 6) {
