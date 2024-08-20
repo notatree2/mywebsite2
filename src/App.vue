@@ -62,8 +62,8 @@
 <div class="place-content-center h-screen dark:bg-slate-700 z-0">
   <div class="rounded-lg bg-neutral-100 p-10 text-center overflow-hidden shadow-xl shadow-slate-300/3 mr-48 ml-48 dark:bg-slate-800 z-10">
     
-    <div class="text-pretty text-slate-600 leading-relaxed dark:text-slate-400 ">
-      <h1 class="font-bold text-3xl p-3 font-sans">Hello, i am notacupofmilk.</h1>
+    <div class="text-pretty text-slate-600 leading-relaxed dark:text-slate-400 tracking-normal ">
+      <h1 class="font-bold text-3xl p-3 font-sans ">Hello, i am notacupofmilk.</h1>
       <p>I am a Christian, gamer, and i like the internet. This website right now is a placeholder for whats to come. The source code can be found <a :href="source" class="font-bold text-blue-400 hover:text-blue-500 transition transition-all active:text-blue-600">here.</a>  Very heavily inspired off a <a href="https://www.youtube.com/watch?v=UHciHtsuFnw" class="text-blue-500">tutorial</a> (though i tried to write the code by myself)</p>
       <br>
         <div class="grid grid-cols-2 w-full rounded-xl p-5 font-medium gap-2 ">
