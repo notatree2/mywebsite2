@@ -66,7 +66,9 @@
       <h1 class="font-bold text-3xl p-3 font-sans ">Hello, i am notacupofmilk.</h1>
       <p>I am a Christian, gamer, and i like the internet. This website right now is a placeholder for whats to come. The source code can be found <a :href="source" class="font-bold text-blue-400 hover:text-blue-500 transition transition-all active:text-blue-600">here.</a>  Very heavily inspired off a <a href="https://www.youtube.com/watch?v=UHciHtsuFnw" class="text-blue-500">tutorial</a> (though i tried to write the code by myself)</p>
       <br>
+      <div class="border border-slate-200 dark:border-slate-700 mr-24 ml-24"></div>
         <div class="grid grid-cols-2 w-full rounded-xl p-5 font-medium gap-2 ">
+          
           <a :href="old" target="_blank"><button class="  w-full border rounded-lg bg-slate-300 p-3 transition-colors hover:bg-slate-400 active:bg-slate-500 dark:bg-slate-600">Old Website</button></a>
           <a :href="website" target="_blank"><button class=" w-full p-3 border rounded-lg bg-blue-300 transition-colors hover:bg-blue-400 active:bg-blue-500 dark:text-slate-900">Tech Independence Journey</button></a>
           
