@@ -59,7 +59,7 @@
 </script>
 
 <template>
-<div class="place-content-center h-screen dark:bg-slate-700 z-0">
+<div class="place-content-center h-screen dark:to-slate-700 dark:from-slate-800 z-0 bg-gradient-to-tl">
   <div class="rounded-lg bg-neutral-100 p-10 text-center overflow-hidden shadow-xl shadow-slate-300/3 mr-48 ml-48 dark:bg-slate-800 z-10">
     
     <div class="text-pretty text-slate-600 leading-relaxed dark:text-slate-400 tracking-normal ">
