@@ -3,6 +3,8 @@
 
   import { ref, onMounted, computed } from "vue"
   import { useDark, useToggle } from '@vueuse/core';
+  import buttons from "./components/buttons.vue"
+  import dropdown from "./components/dropdownmenutest.vue"
   const isDark = ref(useDark())
   const website = ref("https://tech-independence-journey.codeberg.page/")
   const old = ref("https://notatree2.github.io/mywebsite/")
@@ -59,7 +61,9 @@
 </script>
 
 <template>
+  
 <div class="place-content-center h-screen dark:to-slate-700 dark:from-slate-800 z-0 bg-gradient-to-tl">
+  
   <div class="rounded-lg bg-neutral-100 p-10 text-center overflow-hidden shadow-xl shadow-slate-300/3 mr-48 ml-48 dark:bg-slate-800 z-10">
     
     <div class="text-pretty text-slate-600 leading-relaxed dark:text-slate-400 tracking-normal ">
@@ -67,23 +71,21 @@
       <p>I am a Christian, gamer, and i like the internet. I've decided this is what the website is now. This may change in the future though. The source code can be found <a :href="source" class="font-bold text-blue-400 hover:text-blue-500 transition transition-all active:text-blue-600">here.</a>  Very heavily inspired off a <a href="https://www.youtube.com/watch?v=UHciHtsuFnw" class="text-blue-500">tutorial</a> (though i tried to write the code by myself)</p>
       <br>
       <div class="border border-slate-200 dark:border-slate-700 mr-24 ml-24"></div>
-        <div class="grid grid-cols-2 w-full rounded-xl p-5 font-medium gap-2 ">
-          
-          <a :href="old" target="_blank"><button class="  w-full border rounded-lg bg-slate-300 p-3 transition-colors hover:bg-slate-400 active:bg-slate-500 dark:bg-slate-600">Old Website</button></a>
-          <a :href="website" target="_blank"><button class=" w-full p-3 border rounded-lg bg-blue-300 transition-colors hover:bg-blue-400 active:bg-blue-500 dark:text-slate-900">Tech Independence Journey</button></a>
-          
-        </div>
-        <p @click="changeme" class="animation animate-bounce duration-400">{{statian}}</p>
+      <buttons />
+        
+        <p @click="changeme" class="animation animate-bounce duration-1000">{{statian}}</p>
         <br>
         <div class="border border-neutral-100  dark:border-slate-800 p-2 group mr-96 ml-96">
           
-          <input type="checkbox" v-model="isDark" class="rounded-lg focus:ring-1 focus:ring-slate-400 transition transition-all focus:ring-offset-2 "> <label class="opacity-0 group-hover:opacity-100 transition transition-opacity font-semibold">Enable Dark mode</label>
+          <input type="checkbox" v-model="isDark" class="rounded-lg focus:ring-1 focus:ring-slate-400 transition transition-all focus:ring-offset-2 cursor-pointer "> <label class="opacity-0 group-hover:opacity-100 transition transition-opacity font-semibold ">Enable Dark mode</label>
+        
         </div>
         
       </div>
   
   
   </div>
+  <dropdown />
 </div>
 </template>
 
