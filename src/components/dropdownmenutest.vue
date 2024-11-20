@@ -17,6 +17,7 @@ const sethidval = () => {
 </script>
 
 <template>
+    
     <div class="relative">
         <div class=" border-solid border-gray-400 border-3 py-2 px-3 rounded cursor-pointer bg-white font-bold w-[200px] shadow-sm" @click="sethidval">
             Options

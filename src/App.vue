@@ -37,7 +37,7 @@
   const changeme = () => {
     const random = Math.floor(Math.random() * 8)
     if (random === 1) {
-      statian.value = "2+2=4"
+      statian.value = "Xiao Xiao is a stickman animation series from like the early or late 2000s idk"
     } else if (random === 2) {
       statian.value = "Do you like music?"
     } else if (random === 3) {
@@ -45,7 +45,7 @@
     } else if (random === 4) {
       statian.value = "The internet is pretty cool"
     } else if (random === 5) {
-      statian.value = "Counter Strike is pretty cool ngl"
+      statian.value = "STICK WAR"
     } else if (random === 6) {
       statian.value = "The Lord is so cool (im a Christian)"
     } else if (random === 7) {
@@ -85,7 +85,7 @@
   
   
   </div>
-  <dropdown />
+  <!-- <dropdown /> -->
 </div>
 </template>
 
