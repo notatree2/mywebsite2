@@ -1,5 +1,5 @@
 # My New Website!
-As of now, (7/26/24), my brand new website is currently under construction. It will just have a page for now.
+As of now, (11/26/24) has been completed. Updates may come though
 
 ## Problems/Issues with my website? 
 Please do not hesitate to report the problems to me. I will try to fix the issues.
