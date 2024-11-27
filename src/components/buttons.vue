@@ -1,4 +1,5 @@
 <script setup>
+      import { ref } from "vue"
       const website = ref("https://tech-independence-journey.codeberg.page/")
       const old = ref("https://notatree2.github.io/mywebsite/")
 </script>
