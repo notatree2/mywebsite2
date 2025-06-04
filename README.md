@@ -4,7 +4,7 @@ As of now, (11/26/24) has been completed. Updates may come though
 ## Problems/Issues with my website? 
 Please do not hesitate to report the problems to me. I will try to fix the issues.
 
-Troubleshooting common errors will be available in the issues tab.
+Troubleshooting common errors that you may experience may be available in the issues tab.
 
 ## FAQ
 
