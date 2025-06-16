@@ -67,16 +67,16 @@
   <div class="rounded-lg bg-neutral-100 p-10 text-center overflow-hidden shadow-xl shadow-slate-300/3 mr-48 ml-48 dark:bg-slate-800 z-10">
     
     <div class="text-pretty text-slate-600 leading-relaxed dark:text-slate-400 tracking-normal ">
-      <h1 class="font-bold text-3xl p-3 font-sans ">Hello, i am notacupofmilk.</h1>
-      <p>I am a Christian, gamer, and i like the internet. I've decided this is what the website is now. This may change in the future though. The source code can be found <a :href="source" class="font-bold text-blue-400 hover:text-blue-500 transition transition-all active:text-blue-600">here.</a>  Very heavily inspired off a <a href="https://www.youtube.com/watch?v=UHciHtsuFnw" class="text-blue-500">tutorial</a> (though i tried to write the code by myself)</p>
+      <h1 class="font-bold text-3xl p-3 font-sans ">Hello, i am .</h1>
+      <p> Can i call myself notacupofmilk anymore? I don't think i can, I feel as if i have dropped that name. And for good reason, I did so to save my life. I was probably going to kill myself if I didn't, for it had only been about a week. Had it not been for Area 51's collapse i would still be around, but I dont want to use that to convince people. <br>I am isolated and lonely, and I only talk to my parents. I have found it cringe to express my feelings, but that's irrational. I would like to come back, but for the sake of my morals and sanity, i dont think i can. I would like to thank you all for being my friend, and spending time with me. I really do appreciate it. <a :href="source" class="font-bold text-blue-400 hover:text-blue-500 transition transition-all active:text-blue-600">Github found here,</a> and my inspiration.<a href="https://www.youtube.com/watch?v=UHciHtsuFnw" class="text-blue-500">tutorial</a> (though i tried to write the code by myself)</p>
       <br>
       <div class="border border-slate-200 dark:border-slate-700 mr-24 ml-24"></div>
       <buttons />
-        
+        <!-- 
         <p @click="changeme" class="animation animate-bounce duration-1000">{{statian}}</p>
         <br>
         <div class="border border-neutral-100  dark:border-slate-800 p-2 group mr-96 ml-96">
-          
+          -->
           <input type="checkbox" v-model="isDark" class="rounded-lg focus:ring-1 focus:ring-slate-400 transition transition-all focus:ring-offset-2 cursor-pointer "> <label  class="opacity-0 group-hover:opacity-100 transition transition-opacity font-semibold ">Enable Dark mode</label>
         
         </div>
@@ -86,7 +86,7 @@
   
   </div>
   <!-- <dropdown /> -->
-</div>
+
 </template>
 
 <style scoped>
